@@ -82,19 +82,7 @@ body
 	-webkit-animation: mover 4s cubic-bezier(0.645, 0.045, 0.355, 1.000) 1s both;
 	        animation: mover 4s cubic-bezier(0.645, 0.045, 0.355, 1.000) 1s both;
 }
-.button
-{
-  text-align: center;
-  position: absolute;
-  bottom: 400px;
-right: 800px;
-bottom: 350px;
-  
-}
-.button-size
-{
-  width: 100px;
-}
+
 .text1
 {
   position: absolute;
