@@ -6,7 +6,7 @@ html /* body html min height */
 
 body /* body  background stle */
 {
-	background-image: url(img/computer.jpg);
+	background-image: url(../img/computer.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 
