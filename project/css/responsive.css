@@ -1,0 +1,45 @@
+@media (max-width: 768px)
+{
+	section
+	{
+		width: 100%;
+		
+	}
+	 #section1 , #section2
+	{
+		height: 500px;
+	}
+	
+
+    main
+    {
+    	width: 100%
+    }
+	aside
+	{
+        width: 100%;
+	}
+	footer
+	{
+		width: 100%;
+	}
+    #my-nav
+    {
+	
+	      height: 350px;
+    }
+    #logo
+    {
+	      width: 300px;
+    }
+    #my-footer
+    {
+	     height: 400px;
+    }
+
+    .toggle
+    {
+	    display: block;
+    }
+
+}
