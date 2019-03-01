@@ -385,9 +385,11 @@ width: 60%;
 	background-color: rgb(249, 254, 255);
 	border: outset;
 	border-radius: 10px;
-	height:53em;
+	height:64em;
 	opacity: 0.87;
 	margin-left: 200px;
+	margin-bottom: 50px;
+	margin-top: 50px;
 	font-size: 20px;
 }
 /**

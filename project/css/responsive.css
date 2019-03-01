@@ -50,7 +50,7 @@
 		width: 100%;
 		
 	}
-	 #section1 , #section2, #section4,  #section6, #section7, #section8 , #profile-aside,f
+	 #section1 , #section2, #section4, #section8 , #profile-aside
 
 	{
 		height: 500px;
@@ -70,10 +70,26 @@
 
 	#section5
 	{
-		height: 1200px;
+		height: 79em;
 		width: 100%;
 		float: right;
 	}
+	#section6
+	{
+		height: 110em;
+		width: 100%;
+		float: right;
+
+	}
+	#section7
+	{
+		height: 240em;
+		width: 100%;
+		float: right;
+
+	}
+
+
 
 	.index-body body 
 	{
