@@ -60,6 +60,84 @@ footer
 ---------------------------------------------------------------------------------------------------------------------------
 --------------------------------------- HEADER STYLE ----------------------------------------------------------------------
 **/
+.header
+{
+	height: 100px;
+	background: #ff8644;
+	padding: 0  ;
+	color: #ffff;
+	width: 100%;
+}
+.logo
+{
+	line-height: 10px;
+	float: left;
+	text-transform: uppercase;
+	margin-top: 50px;
+}
+.menu
+{
+	float: right;
+	line-height: 100px;
+}
+.menu a
+{
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 0 10px;
+	transition: 0.4s;
+	border-radius: 30px;
+
+
+}
+.show-menu-btn, .hide-menu-btn
+{
+	transition: 0.4s;
+	font-size: 30px;
+	cursor: pointer;
+	display: none;
+}
+
+.show-menu-btn
+{
+	float: right;
+}
+.show-menu-btn i
+{
+	line-height: 100px;
+	
+}
+.menu a:hover,
+.show-menu-btn:hover,
+.hide-menu-btn:hover
+{
+	color: black;
+}
+#chk
+{
+	position: absolute;
+	visibility: hidden;
+	z-index: -1111;
+	color: blue;
+}
+.content
+{
+	padding: 0 20px;
+}
+.content img
+{
+	max-width: 700px;
+}
+.content p
+{
+	text-align: justify;
+}
+
+
+
+
+
  .the-nav 
 {
 	 background-color: #ff8644;
