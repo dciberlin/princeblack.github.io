@@ -415,17 +415,17 @@ width: 60%;
  *                                                MAIN section 7 style for page: privacy
  * ------------------------------------------------------------------------------------------------------
  */
- #section7
+#section7
 {
 	width: 100%;
 	background-color: rgb(249, 254, 255);
 	border: outset;
 	border-radius: 10px;
-	height:170em;
+	height:175em;
 	opacity: 0.87;
+	margin-left: 200px;
 	font-size: 20px;
 	margin-top: 50px;
-	margin-left: 250px;
 }
 
 /**
