@@ -1,3 +1,9 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body, 
 html /* body html min height */
 {
@@ -15,8 +21,8 @@ body /* body  background stle */
 
 .home-title /* home title style*/
 {
-	position: absolute;
-	left: 400px;
+	position: relative;
+text-align: center;
 	top: 80px;
 	color: #82B541;
 	font-size: 50px;
@@ -38,14 +44,13 @@ button a
 {
 	background-color:transparent;
 	color: rgb(0, 6, 191);
-	position: absolute;
+	position: relative;
 	left: 530px;
 	top:350px;
 	border-width: 5px;
 	border-radius: 20px;
 	border-color: rgb(209, 235, 255);
 	font-size: 20px;
-	font-style: 
 }
 .button { /* home title animation style */
 	-webkit-animation: home-buton 4s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;

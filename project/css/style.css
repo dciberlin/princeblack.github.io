@@ -169,14 +169,17 @@ footer
  * ------------------------------------------------------------------------------------------------
  *                                               MAIN section 2 style for page : About
  * ------------------------------------------------------------------------------------------------
- */
+ */ul li
+ {
+ 	display: block;
+ }
 #section2
 {
 	width: 70%;
 	background-color: rgb(249, 254, 255);
 	border: outset;
 	border-radius: 10px;
-	height:400px;
+	height:450px;
 	margin-left: 200px;
 	margin-top: 50px;
 	opacity: 0.87;
@@ -203,6 +206,7 @@ footer
    clear: both;
 width: 60%;
    font-size: 20px;
+   margin-right: 100px;
 }
 /**
  * ------------------------------------------------------------------------------------------------------
@@ -215,7 +219,7 @@ width: 60%;
 	background-color: rgb(249, 254, 255);
 	border: outset;
 	border-radius: 10px;
-	height:690px;
+	height:790px;
 	margin-top: 50px;
 	margin-bottom: 50px;
 	opacity: 0.87;
@@ -415,9 +419,8 @@ width: 60%;
 	background-color: rgb(249, 254, 255);
 	border: outset;
 	border-radius: 10px;
-	height:140em;
+	height:25em;
 	opacity: 0.87;
-	margin-left: 200px;
 	font-size: 20px;
 	margin-top: 50px;
 }

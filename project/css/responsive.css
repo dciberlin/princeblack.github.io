@@ -1,45 +1,120 @@
-@media (max-width: 768px)
+	*
 {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@media  screen and (max-width: 800px)
+{
+
+    .show-menu-btn, .hide-menu-btn
+    {
+    	display: block;
+    }
+    .menu
+    {
+    	position: relative;
+    	width: 100%;
+    	height: 100vh;
+    	background: #b24001;
+    	right: -100%;
+    	top: 0;
+    	text-align: center;
+    	padding: 80px 0;
+    	line-height: normal;
+    	float: right;
+    	transition: 0.7s;
+    }
+    .menu a
+    {
+    	display: block;
+    	padding: 20px;
+    }
+    .hide-menu-btn
+    {
+    	position: absolute;
+    	top: 40px;
+    	right: 40px;
+    }
+    #chk:checked ~ .menu
+    {
+    	right:0;
+    }
+    /*******************
+    ----------------------------------------------------------
+    -----------------------------------------------------------------
+    **********************/
 	section
 	{
 		width: 100%;
 		
 	}
-	 #section1 , #section2
+	 #section1 , #section2, #section4,  #section6, #section7, #profile-aside,form
+
 	{
 		height: 500px;
+		width: 100%;
+		float: right;
 	}
+	#section3
+	{
+		height: 850px;
+		width: 100%;
+		float: right;
+	}
+
+	#section5
+	{
+		height: 1200px;
+		width: 100%;
+		float: right;
+	}
+	#section7 ,s#profile-aside
+	{
+		float: right;
+		width: 100%;
+	}
+
+
+
+	.index-body body 
+	{
+		width: 50%;
+		background-image: width:100%;
+	}
+	.home-title
+	{
+		text-align: center;
+	}
+	.button
+	{
 	
+	text-align: center;
+	 margin-right: 1500px
+
+
+	}
+
 
     main
     {
-    	width: 100%
+    	width: 100%;
+    	height: 0; 
+
     }
 	aside
 	{
         width: 100%;
+        height: 0;
 	}
 	footer
 	{
 		width: 100%;
-	}
-    #my-nav
-    {
-	
-	      height: 350px;
-    }
-    #logo
-    {
-	      width: 300px;
-    }
-    #my-footer
-    {
-	     height: 400px;
-    }
+	    height:0;
 
-    .toggle
-    {
-	    display: block;
-    }
+	}
+    
+   
 
 }
