@@ -139,6 +139,29 @@
     {
 	     height: 100px;
     }
+    /*************************
+    ----------------------------------------------------------------------------
+    ----------------------------------------------------------------------------
+
+    *************************/
+    .button /* home page button style : color-size-radius-position-width-transparent*/
+{
+	background-color: #0a4491;
+	color: #ffff;
+	position: relative;
+  text-align: center;
+  left: 230px;
+
+	top:350px;
+	border-width: 5px;
+	border-radius: 20px;
+	border-color:#0a4491;
+	font-size: 20px;
+}
+    .home-page 
+    {
+    	text-align: center;
+    }
 
    
 
